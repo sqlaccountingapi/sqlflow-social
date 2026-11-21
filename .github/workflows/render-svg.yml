@@ -1,0 +1,51 @@
+name: Render SVG to PNG
+
+on:
+  push:
+    branches: [main]
+    paths: ["posts/**.svg"]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # only this repo, only while the job runs
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install renderer and fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq librsvg2-bin fonts-inter fonts-jetbrains-mono optipng
+          fc-cache -f
+
+      - name: Render any SVG that has no up-to-date PNG
+        run: |
+          set -e
+          changed=0
+          while IFS= read -r svg; do
+            png="${svg%.svg}.png"
+            if [ ! -f "$png" ] || [ "$svg" -nt "$png" ] || git diff --name-only HEAD~1 HEAD -- "$svg" | grep -q .; then
+              rsvg-convert -w 1200 -h 630 -b "#070B16" "$svg" -o "$png"
+              optipng -quiet -o2 "$png"
+              echo "Rendered $png ($(stat -c%s "$png") bytes)"
+              changed=1
+            fi
+          done < <(find posts -name '*.svg')
+          echo "changed=$changed" >> "$GITHUB_ENV"
+
+      - name: Commit PNGs
+        if: env.changed == '1'
+        run: |
+          git config user.name  "sqlflow-render-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A posts
+          git commit -m "Render PNGs [skip ci]" || exit 0
+          git push
