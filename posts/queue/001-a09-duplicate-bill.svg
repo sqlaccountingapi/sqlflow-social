@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B16"/><stop offset="1" stop-color="#0E1730"/></linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.5"><stop offset="0" stop-color="#2F6BFF" stop-opacity="0.35"/><stop offset="1" stop-color="#2F6BFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2F6BFF"/><stop offset="1" stop-color="#5B8CFF"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000" flood-opacity="0.5"/></filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.06"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(72,92)"><rect width="336" height="36" rx="18" fill="#2F6BFF" fill-opacity="0.15" stroke="#8FB2FF" stroke-opacity="0.45"/>
+    <circle cx="22" cy="18" r="5" fill="#8FB2FF"/>
+    <text x="36" y="24" font-size="15" font-weight="700" fill="#8FB2FF" letter-spacing="1.5">ASSISTANT · DUPLICATE CHECK</text>
+    <text y="104" font-size="50" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">Same bill, twice?</text>
+    <text y="164" font-size="50" font-weight="800" fill="#8FB2FF" letter-spacing="-1.5">Caught before posting.</text>
+    <text y="220" font-size="21" fill="#94A3B8">Snap a supplier bill. SQL Flow checks if it</text>
+    <text y="252" font-size="21" fill="#94A3B8">was already entered, before it hits your books.</text>
+  </g>
+
+  <g transform="translate(700,70)" filter="url(#shadow)">
+    <rect width="420" height="460" rx="24" fill="#111A2E" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="28" y="44" font-size="13" font-weight="700" fill="#94A3B8" letter-spacing="1">NEW PURCHASE BILL</text>
+    <text x="28" y="80" font-size="20" font-weight="800" fill="#FFFFFF">Syarikat Bekalan Jaya</text>
+    <text x="28" y="108" font-size="15" fill="#94A3B8">Bill no. INV-2291 · RM 3,480.00</text>
+    <rect x="28" y="136" width="364" height="150" rx="16" fill="#EF4444" fill-opacity="0.12" stroke="#EF4444" stroke-opacity="0.55"/>
+    <circle cx="58" cy="170" r="14" fill="#EF4444"/>
+    <text x="58" y="176" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">!</text>
+    <text x="84" y="176" font-size="17" font-weight="800" fill="#FFFFFF">Possible duplicate</text>
+    <text x="50" y="214" font-size="15" fill="#FECACA">Same supplier, bill no. and amount</text>
+    <text x="50" y="240" font-size="15" fill="#FECACA">already entered as PI-00417</text>
+    <text x="50" y="266" font-size="15" fill="#FECACA">on 14 Nov 2026.</text>
+    <rect x="28" y="316" width="176" height="52" rx="12" fill="url(#btn)"/>
+    <text x="116" y="348" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">Skip, don't post</text>
+    <rect x="216" y="316" width="176" height="52" rx="12" fill="#FFFFFF" fill-opacity="0.06"/>
+    <text x="304" y="348" font-size="15" font-weight="600" fill="#CBD5E1" text-anchor="middle">View PI-00417</text>
+    <text x="28" y="420" font-size="14" fill="#64748B">Demo data · fictional supplier</text>
+  </g>
+  <g transform="translate(72,560)"><svg width="40" height="40" viewBox="0 0 128 128"><rect x="14" y="26" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="30" y="54" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="46" y="82" width="68" height="20" rx="10" fill="#8FB2FF"/></svg>
+    <text x="48" y="28" font-size="20" font-weight="800" fill="#FFFFFF">SQL Flow</text>
+    <text x="152" y="28" font-size="16" fill="#64748B">sqlaccountingapi.com</text></g>
+</svg>
