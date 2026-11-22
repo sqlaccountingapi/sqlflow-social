@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B16"/><stop offset="1" stop-color="#0E1730"/></linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.5"><stop offset="0" stop-color="#2F6BFF" stop-opacity="0.35"/><stop offset="1" stop-color="#2F6BFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2F6BFF"/><stop offset="1" stop-color="#5B8CFF"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.06"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(72,92)"><rect width="272" height="36" rx="18" fill="#2F6BFF" fill-opacity="0.15" stroke="#8FB2FF" stroke-opacity="0.45"/>
+    <circle cx="22" cy="18" r="5" fill="#8FB2FF"/>
+    <text x="36" y="24" font-size="15" font-weight="700" fill="#8FB2FF" letter-spacing="1.5">REPORTS · STOCK AGING</text>
+    <text y="104" font-size="54" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">Find your dead stock</text>
+    <text y="168" font-size="54" font-weight="800" fill="#8FB2FF" letter-spacing="-1.5">before it finds you.</text>
+    <text y="226" font-size="22" fill="#94A3B8">FIFO stock aging in 30-day bands, straight</text>
+    <text y="258" font-size="22" fill="#94A3B8">from SQL Account. No Excel, no guesswork.</text>
+  </g>
+  <g transform="translate(690,70)">
+    <rect x="-28" y="-10" width="476" height="470" rx="24" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="0" y="30" font-size="13" font-weight="700" fill="#94A3B8" letter-spacing="1">STOCK VALUE BY AGE (EXAMPLE)</text>
+    <text x="0" y="96" font-size="58" font-weight="800" fill="#EF4444">RM 38,400</text>
+    <text x="0" y="124" font-size="15" fill="#CBD5E1">sitting 180+ days on the shelf</text>
+    <g transform="translate(0,20)"><text x="0" y="172" font-size="16" font-weight="600" fill="#CBD5E1">0–30 days</text>
+    <rect x="110" y="150" width="250" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.05"/>
+    <rect x="110" y="150" width="250" height="32" rx="8" fill="#2F6BFF"/>
+    <text x="376" y="172" font-size="16" font-weight="700" fill="#FFFFFF">46%</text><text x="0" y="234" font-size="16" font-weight="600" fill="#CBD5E1">31–60</text>
+    <rect x="110" y="212" width="250" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.05"/>
+    <rect x="110" y="212" width="120" height="32" rx="8" fill="#5B8CFF"/>
+    <text x="376" y="234" font-size="16" font-weight="700" fill="#FFFFFF">22%</text><text x="0" y="296" font-size="16" font-weight="600" fill="#CBD5E1">61–90</text>
+    <rect x="110" y="274" width="250" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.05"/>
+    <rect x="110" y="274" width="76" height="32" rx="8" fill="#8FB2FF"/>
+    <text x="376" y="296" font-size="16" font-weight="700" fill="#FFFFFF">14%</text><text x="0" y="358" font-size="16" font-weight="600" fill="#CBD5E1">91–180</text>
+    <rect x="110" y="336" width="250" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.05"/>
+    <rect x="110" y="336" width="54" height="32" rx="8" fill="#F59E0B"/>
+    <text x="376" y="358" font-size="16" font-weight="700" fill="#FFFFFF">10%</text><text x="0" y="420" font-size="16" font-weight="600" fill="#CBD5E1">180+ days</text>
+    <rect x="110" y="398" width="250" height="32" rx="8" fill="#FFFFFF" fill-opacity="0.05"/>
+    <rect x="110" y="398" width="43" height="32" rx="8" fill="#EF4444"/>
+    <text x="376" y="420" font-size="16" font-weight="700" fill="#FFFFFF">8%</text></g>
+  </g>
+  <g transform="translate(72,560)"><svg width="40" height="40" viewBox="0 0 128 128"><rect x="14" y="26" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="30" y="54" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="46" y="82" width="68" height="20" rx="10" fill="#8FB2FF"/></svg>
+    <text x="48" y="28" font-size="20" font-weight="800" fill="#FFFFFF">SQL Flow</text>
+    <text x="152" y="28" font-size="16" fill="#64748B">sqlaccountingapi.com</text></g>
+</svg>
