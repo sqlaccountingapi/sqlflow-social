@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B16"/><stop offset="1" stop-color="#0E1730"/></linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.5"><stop offset="0" stop-color="#2F6BFF" stop-opacity="0.35"/><stop offset="1" stop-color="#2F6BFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2F6BFF"/><stop offset="1" stop-color="#5B8CFF"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000" flood-opacity="0.5"/></filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.06"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(72,92)"><rect width="270" height="36" rx="18" fill="#2F6BFF" fill-opacity="0.15" stroke="#8FB2FF" stroke-opacity="0.45"/>
+    <circle cx="22" cy="18" r="5" fill="#8FB2FF"/>
+    <text x="36" y="24" font-size="15" font-weight="700" fill="#8FB2FF" letter-spacing="1.5">SAFETY · BATCH IMPORT</text>
+    <text y="104" font-size="50" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">Importing 100 invoices?</text>
+    <text y="164" font-size="50" font-weight="800" fill="#8FB2FF" letter-spacing="-1.5">Dry run first.</text>
+    <text y="220" font-size="21" fill="#94A3B8">Test the whole batch without saving anything.</text>
+    <text y="252" font-size="21" fill="#94A3B8">See every error before it reaches your books.</text>
+  </g>
+
+  <g transform="translate(680,70)" filter="url(#shadow)">
+    <rect width="444" height="440" rx="24" fill="#111A2E" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="28" y="48" font-size="13" font-weight="700" fill="#94A3B8" letter-spacing="1">IMPORT CHECKLIST</text>
+    <text x="28" y="80" font-size="20" font-weight="800" fill="#FFFFFF">100 sales invoices</text>
+    <rect x="28" y="110" width="388" height="60" rx="14" fill="#FFFFFF" fill-opacity="0.07"/>
+    <rect x="46" y="126" width="28" height="28" rx="8" fill="#2F6BFF" stroke="#8FB2FF" stroke-width="2"/>
+    <path d="M52 140 l6 6 l11 -12" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="147" font-size="16" font-weight="600" fill="#E2E8F0">Map columns to official field names</text>
+<rect x="28" y="186" width="388" height="60" rx="14" fill="#FFFFFF" fill-opacity="0.07"/>
+    <rect x="46" y="202" width="28" height="28" rx="8" fill="#2F6BFF" stroke="#8FB2FF" stroke-width="2"/>
+    <path d="M52 216 l6 6 l11 -12" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="223" font-size="16" font-weight="600" fill="#E2E8F0">Run a dry run: nothing is saved</text>
+<rect x="28" y="262" width="388" height="60" rx="14" fill="#FFFFFF" fill-opacity="0.04"/>
+    <rect x="46" y="278" width="28" height="28" rx="8" fill="none" stroke="#8FB2FF" stroke-width="2"/>
+    <text x="90" y="299" font-size="16" font-weight="600" fill="#E2E8F0">Fix the rows it flags</text>
+<rect x="28" y="338" width="388" height="60" rx="14" fill="#FFFFFF" fill-opacity="0.04"/>
+    <rect x="46" y="354" width="28" height="28" rx="8" fill="none" stroke="#8FB2FF" stroke-width="2"/>
+    <text x="90" y="375" font-size="16" font-weight="600" fill="#E2E8F0">Import for real, with confidence</text>
+  </g>
+  <g transform="translate(72,560)"><svg width="40" height="40" viewBox="0 0 128 128"><rect x="14" y="26" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="30" y="54" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="46" y="82" width="68" height="20" rx="10" fill="#8FB2FF"/></svg>
+    <text x="48" y="28" font-size="20" font-weight="800" fill="#FFFFFF">SQL Flow</text>
+    <text x="152" y="28" font-size="16" fill="#64748B">sqlaccountingapi.com</text></g>
+</svg>
