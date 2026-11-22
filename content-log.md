@@ -1,5 +1,6 @@
 # SQL Flow – Content Bank & Post Log
-Rule: never reuse an ID marked as posted. Use a different pillar and format for each post in the week. New ideas may be added (next free ID per pillar) based on sqlaccountingapi.com features/assistant/docs.
+Cadence: ONE post every 2 days. Each run publishes exactly 1 post; skip the run if the last published post is less than 2 days old.
+Rule: never reuse an ID marked as posted. Each post must use a different pillar and format from the previous 2 published posts. New ideas may be added (next free ID per pillar) based on sqlaccountingapi.com features/assistant/docs.
 
 Formats: Problem→Fix · Chat demo · Code snippet · Before/After · Myth vs Fact · Checklist · Mini case study · Poll/Question · Stat card · Flow diagram
 
@@ -43,9 +44,11 @@ Formats: Problem→Fix · Chat demo · Code snippet · Before/After · Myth vs F
 | D04 | Dev tips | Windows on ARM? Supported | x64 + ARM64 builds |
 
 ## Post log
-| Week | ID | Pillar | Format | Status | FB post ID |
-|------|----|--------|--------|--------|-----------|
-| 2026-W47 | A03 | Assistant | Chat demo | published | 1367858506420728_122106831339549035 |
-| 2026-W47 | S01 | Safety | Before/After | draft | 1367858506420728_122106831507549035 |
-| 2026-W47 | R01 | Reports | Stat card | published | 1367858506420728_122107675329549035 |
-| 2026-W47 | P01 | API | Flow diagram | published | 1367858506420728_122107675521549035 |
+| Date | Week | ID | Pillar | Format | Status | FB post ID |
+|------|------|----|--------|--------|--------|-----------|
+| – | 2026-W47 | A03 | Assistant | Chat demo | published | 1367858506420728_122106831339549035 |
+| – | 2026-W47 | S01 | Safety | Before/After | draft | 1367858506420728_122106831507549035 |
+| 2026-11-22 | 2026-W47 | R01 | Reports | Stat card | published | 1367858506420728_122107675329549035 |
+| 2026-11-22 | 2026-W47 | P01 | API | Flow diagram | published | 1367858506420728_122107675521549035 |
+
+Next post due: 2026-11-24
