@@ -47,3 +47,5 @@ Formats: Problem→Fix · Chat demo · Code snippet · Before/After · Myth vs F
 |------|----|--------|--------|--------|-----------|
 | 2026-W47 | A03 | Assistant | Chat demo | published | 1367858506420728_122106831339549035 |
 | 2026-W47 | S01 | Safety | Before/After | draft | 1367858506420728_122106831507549035 |
+| 2026-W47 | R01 | Reports | Stat card | published | 1367858506420728_122107675329549035 |
+| 2026-W47 | P01 | API | Flow diagram | published | 1367858506420728_122107675521549035 |
