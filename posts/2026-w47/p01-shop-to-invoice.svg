@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B16"/><stop offset="1" stop-color="#0E1730"/></linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.5"><stop offset="0" stop-color="#2F6BFF" stop-opacity="0.35"/><stop offset="1" stop-color="#2F6BFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2F6BFF"/><stop offset="1" stop-color="#5B8CFF"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.06"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(72,92)"><rect width="224" height="36" rx="18" fill="#2F6BFF" fill-opacity="0.15" stroke="#8FB2FF" stroke-opacity="0.45"/>
+    <circle cx="22" cy="18" r="5" fill="#8FB2FF"/>
+    <text x="36" y="24" font-size="15" font-weight="700" fill="#8FB2FF" letter-spacing="1.5">API · E-COMMERCE</text>
+    <text y="104" font-size="54" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">New online order?</text>
+    <text y="168" font-size="54" font-weight="800" fill="#8FB2FF" letter-spacing="-1.5">Invoice is already in SQL.</text>
+  </g>
+  <g transform="translate(72,320)">
+    <rect x="0" y="0" width="300" height="130" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="150" y="58" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">Shopee / Shopify</text>
+    <text x="150" y="90" font-size="16" fill="#94A3B8" text-anchor="middle">Order paid</text><line x1="318" y1="65" x2="368" y2="65" stroke="#8FB2FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M360 55 L374 65 L360 75" fill="none" stroke="#8FB2FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="384" y="0" width="300" height="130" rx="20" fill="url(#btn)"/>
+    <text x="534" y="58" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">SQL Flow API</text>
+    <text x="534" y="90" font-size="16" fill="#E6EEFF" text-anchor="middle">POST /salesinvoice</text><line x1="702" y1="65" x2="752" y2="65" stroke="#8FB2FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M744 55 L758 65 L744 75" fill="none" stroke="#8FB2FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="768" y="0" width="300" height="130" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="918" y="58" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">SQL Account</text>
+    <text x="918" y="90" font-size="16" fill="#94A3B8" text-anchor="middle">Sales invoice posted</text>
+  </g>
+  <g transform="translate(760,560)" font-size="16" font-weight="600" fill="#E2E8F0">
+    <text x="0" y="28">✓ No retyping</text><text x="140" y="28">✓ No missed orders</text>
+  </g>
+  <g transform="translate(72,560)"><svg width="40" height="40" viewBox="0 0 128 128"><rect x="14" y="26" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="30" y="54" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="46" y="82" width="68" height="20" rx="10" fill="#8FB2FF"/></svg>
+    <text x="48" y="28" font-size="20" font-weight="800" fill="#FFFFFF">SQL Flow</text>
+    <text x="152" y="28" font-size="16" fill="#64748B">sqlaccountingapi.com</text></g>
+</svg>
