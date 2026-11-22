@@ -1,0 +1,57 @@
+{
+  "page_id": "1367858506420728",
+  "interval_days": 2,
+  "last_published": "2026-11-22",
+  "queue": [
+    {
+      "file": "001-a09-duplicate-bill",
+      "id": "A09",
+      "pillar": "Assistant",
+      "format": "Problem→Fix",
+      "caption": "Paid the same supplier bill twice? It happens more often than anyone admits. 😬\n\nA bill comes in by email, another copy comes by WhatsApp, and two people key it in. Now your payables are wrong and you might pay twice.\n\nSQL Flow's assistant checks every new bill before it is posted:\n✅ Same supplier, same bill number, same amount? Flagged.\n✅ Shows you the existing entry so you can compare\n✅ Nothing is posted until you decide\n\nFewer double payments, cleaner payables, less month-end detective work.\n\n👉 Has a duplicate bill ever slipped through at your company? Tell us below, or see how it works at sqlaccountingapi.com.\n\n#SQLAccount #AccountsPayable #SMEMalaysia",
+      "status": "queued",
+      "published_date": null,
+      "fb_post_id": null
+    },
+    {
+      "file": "002-s02-dry-run-import",
+      "id": "S02",
+      "pillar": "Safety",
+      "format": "Checklist",
+      "caption": "Before you import 100 invoices into SQL Account, do this one thing first. 👇\n\nA bulk import that goes wrong halfway means hours of finding and deleting bad entries. A dry run tests the whole batch first and saves nothing.\n\nYour 4-step import checklist with SQL Flow:\n1️⃣ Map your columns to the official field names\n2️⃣ Run a dry run: every row is checked, nothing is saved\n3️⃣ Fix the rows it flags\n4️⃣ Import for real, knowing it will go through cleanly\n\nSave this post for your next month-end import. 📌\n\n👉 Want to try it on your own data? Start at sqlaccountingapi.com.\n\n#SQLAccount #DataImport #AccountingAutomation",
+      "status": "queued",
+      "published_date": null,
+      "fb_post_id": null
+    },
+    {
+      "file": "003-i01-restaurant-pos",
+      "id": "I01",
+      "pillar": "Industry",
+      "format": "Mini case study",
+      "caption": "Running more than one restaurant outlet? Your bookkeeper's nightly routine probably looks like this. 🍜\n\nExport the POS report from each outlet. Open SQL Account. Retype the totals. Repeat tomorrow. One typo and the month-end numbers don't match.\n\nPicture a 3-outlet F&B business in the Klang Valley:\n🍽️ Each outlet's POS sends its daily sales to SQL Flow\n🔗 SQL Flow posts them into SQL Account automatically\n📊 The owner sees sales by outlet the next morning, with no spreadsheets\n\nThe bookkeeper stops retyping and starts checking.\n\n👉 Own an F&B business with several outlets? Comment \"POS\" and we'll share how the sync works, or visit sqlaccountingapi.com.\n\n#SQLAccount #FnBMalaysia #RestaurantBusiness",
+      "status": "queued",
+      "published_date": null,
+      "fb_post_id": null
+    },
+    {
+      "file": "004-d01-first-api-call",
+      "id": "D01",
+      "pillar": "Dev tips",
+      "format": "Code snippet",
+      "caption": "Developers: here's how quickly you can read data from SQL Account. ⚡\n\nNo CSV exports and no screen-scraping. You get a real REST API on top of your client's SQL Account data.\n\n4 steps with SQL Flow:\n1️⃣ Install SQL Flow on the PC running SQL Account\n2️⃣ Create an API token in the console\n3️⃣ Call an endpoint such as /salesinvoice\n4️⃣ Get JSON back from the live books\n\nFrom there you can build dashboards, sync with e-commerce or connect your own apps.\n\n👉 SQL Accounting dealer or developer? Visit sqlaccountingapi.com for the docs and make your first call today.\n\n#SQLAccount #API #DeveloperTools",
+      "status": "queued",
+      "published_date": null,
+      "fb_post_id": null
+    },
+    {
+      "file": "005-r03-myinvois-status",
+      "id": "R03",
+      "pillar": "Reports",
+      "format": "Myth vs Fact",
+      "caption": "Myth: \"We submitted it to MyInvois, so we're done.\" ❌\n\nFact: submitted isn't the same as validated. Documents can be rejected, and if nobody checks, you only find out when a customer or the auditor asks.\n\nWith SQL Flow you can see the MyInvois e-Invoice status of every document in one report:\n✅ Valid\n⛔ Rejected: fix and resubmit\n⏳ Pending: follow up before month-end\n\nNo more opening documents one by one.\n\n👉 How does your team check e-Invoice status today? Tell us in the comments, or see the report at sqlaccountingapi.com.\n\n#SQLAccount #MyInvois #eInvoiceMalaysia",
+      "status": "queued",
+      "published_date": null,
+      "fb_post_id": null
+    }
+  ]
+}
