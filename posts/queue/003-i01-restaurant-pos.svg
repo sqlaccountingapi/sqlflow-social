@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B16"/><stop offset="1" stop-color="#0E1730"/></linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.5"><stop offset="0" stop-color="#2F6BFF" stop-opacity="0.35"/><stop offset="1" stop-color="#2F6BFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2F6BFF"/><stop offset="1" stop-color="#5B8CFF"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.06"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#dots)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(72,92)"><rect width="182" height="36" rx="18" fill="#2F6BFF" fill-opacity="0.15" stroke="#8FB2FF" stroke-opacity="0.45"/>
+    <circle cx="22" cy="18" r="5" fill="#8FB2FF"/>
+    <text x="36" y="24" font-size="15" font-weight="700" fill="#8FB2FF" letter-spacing="1.5">INDUSTRY · F&amp;B</text>
+    <text y="104" font-size="50" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">3 outlets. 1 night.</text>
+    <text y="164" font-size="50" font-weight="800" fill="#8FB2FF" letter-spacing="-1.5">Sales already posted.</text>
+    <text y="220" font-size="21" fill="#94A3B8">Daily POS sales from every outlet go into</text>
+    <text y="252" font-size="21" fill="#94A3B8">SQL Account automatically. No re-keying.</text>
+  </g>
+  <g transform="translate(560,300)">
+    <rect x="0" y="0" width="230" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="20" y="32" font-size="16" font-weight="700" fill="#FFFFFF">Outlet 1 · Bangsar</text>
+    <text x="20" y="54" font-size="13" fill="#94A3B8">POS daily sales</text>
+    <path d="M238 36 C 300 36, 300 130, 340 130" fill="none" stroke="#8FB2FF" stroke-width="3" stroke-opacity="0.8"/>
+    <rect x="0" y="92" width="230" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="20" y="124" font-size="16" font-weight="700" fill="#FFFFFF">Outlet 2 · Subang</text>
+    <text x="20" y="146" font-size="13" fill="#94A3B8">POS daily sales</text>
+    <path d="M238 128 C 300 128, 300 130, 340 130" fill="none" stroke="#8FB2FF" stroke-width="3" stroke-opacity="0.8"/>
+    <rect x="0" y="184" width="230" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="20" y="216" font-size="16" font-weight="700" fill="#FFFFFF">Outlet 3 · Cheras</text>
+    <text x="20" y="238" font-size="13" fill="#94A3B8">POS daily sales</text>
+    <path d="M238 220 C 300 220, 300 130, 340 130" fill="none" stroke="#8FB2FF" stroke-width="3" stroke-opacity="0.8"/>
+    <rect x="340" y="80" width="250" height="100" rx="20" fill="url(#btn)"/>
+    <text x="465" y="124" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">SQL Account</text>
+    <text x="465" y="152" font-size="14" fill="#E6EEFF" text-anchor="middle">Daily sales posted</text>
+  </g>
+  <g transform="translate(72,560)"><svg width="40" height="40" viewBox="0 0 128 128"><rect x="14" y="26" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="30" y="54" width="68" height="20" rx="10" fill="#2F6BFF"/><rect x="46" y="82" width="68" height="20" rx="10" fill="#8FB2FF"/></svg>
+    <text x="48" y="28" font-size="20" font-weight="800" fill="#FFFFFF">SQL Flow</text>
+    <text x="152" y="28" font-size="16" fill="#64748B">sqlaccountingapi.com</text></g>
+</svg>
